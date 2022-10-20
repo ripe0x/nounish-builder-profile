@@ -26,6 +26,12 @@ const projects = [
     description: "A protocol and DAO with the sole focus of scaling access to Nouns DAO governance. Work in progress.",
   },
   {
+    title: "Noundry",
+    href: "https://discord.gg/cS5eKgHdgJ",
+    imgSrc: "/project-noundry.jpg",
+    description: "A limited collection Nouns-fork celebrating the art & artists of the original Noundry",
+  },
+  {
     title: "nogs.wtf",
     href: "https://www.nogs.wtf/",
     imgSrc: "/project-nogs.jpg",
@@ -48,12 +54,6 @@ const projects = [
     href: "https://github.com/ripe0x/noggles.app",
     imgSrc: "/project-app.jpg",
     description: "macOS app to quickly copy unicode noggles to your clipboard",
-  },
-  {
-    title: "Noundry",
-    href: "https://discord.gg/cS5eKgHdgJ",
-    imgSrc: "/project-noundry.jpg",
-    description: "A limited collection Nouns-fork celebrating the art & artists of the original Noundry",
   },
   
 ];
