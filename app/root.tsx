@@ -22,7 +22,7 @@ export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "ripe / nounish builder profile ⌐◨-◨" ,
   viewport: "width=device-width,initial-scale=1",
-  "og:image": "/share.png", 
+  "og:image": "https://www.ripe.wtf/share.png", 
 });
 
 export default function App() {
