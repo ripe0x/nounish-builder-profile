@@ -10,7 +10,7 @@ export function links() {
 type Project = {
   title: string;
   href: string;
-  imgSrc: string;
+  imgSrc?: string;
   description: string;
 };
 
@@ -20,10 +20,22 @@ type LoaderData = {
 
 const projects = [
   {
+    title: "Nations ⌐◨-◨",
+    href: "http://nations.wtf",
+    imgSrc: "/project-nations.jpg",
+    description: "A protocol and DAO with the sole focus of scaling access to Nouns DAO governance. Work in progress.",
+  },
+  {
     title: "nogs.wtf",
     href: "https://www.nogs.wtf/",
     imgSrc: "/project-nogs.jpg",
     description: "An NFT project that generates a unique pair of noggles for each wallet on Ethereum",
+  },
+  {
+    title: "nounsauctions.wtf",
+    href: "http://nounsauctions.wtf ",
+    // imgSrc: "/project-nations.jpg",
+    description: "A tool to promote the decentralization of Nouns by randomly redirecting to one of the six front-end Nouns auction clients.",
   },
   {
     title: "Noggle Factory",
@@ -43,12 +55,7 @@ const projects = [
     imgSrc: "/project-noundry.jpg",
     description: "A limited collection Nouns-fork celebrating the art & artists of the original Noundry",
   },
-  {
-    title: "Nations ⌐◨-◨",
-    href: "http://nations.wtf",
-    imgSrc: "/project-nations.jpg",
-    description: "Scaling access to Nouns DAO governance",
-  },
+  
 ];
 
 export const loader = async () => {
